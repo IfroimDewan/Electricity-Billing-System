@@ -122,4 +122,9 @@ public class calculate_bill extends JFrame implements ActionListener{
     public static void main(String[] args){
         new calculate_bill().setVisible(true);
     }
+    public int cal_bill(int billDue, int billCurrent, int billAdvance) {
+        return billDue+billCurrent+billAdvance;     
+    }
+    
+    
 }
