@@ -27,4 +27,7 @@ public class pay_bill extends JFrame{
     public static void main(String[] args){
         new pay_bill().setVisible(true);
     }
+    public int pBill (int billDue, int currentBill) {
+        return currentBill+billDue;  
+    }   
 }
