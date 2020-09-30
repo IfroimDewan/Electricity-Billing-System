@@ -129,5 +129,8 @@ public class generate_bill extends JFrame implements ActionListener{
     public static void main(String[] args){
         new generate_bill().setVisible(true);
     }
+    public int genera_bill (int lastBill, int currentBill) {
+        return currentBill+lastBill;  
+    }  
 }
 
